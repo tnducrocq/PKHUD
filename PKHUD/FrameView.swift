@@ -33,7 +33,7 @@ internal class FrameView: UIVisualEffectView {
 
         contentView.addSubview(content)
 
-        let offset = 20.0
+        /*let offset = 20.0
 
         let motionEffectsX = UIInterpolatingMotionEffect(keyPath: "center.x", type: .tiltAlongHorizontalAxis)
         motionEffectsX.maximumRelativeValue = offset
@@ -46,7 +46,7 @@ internal class FrameView: UIVisualEffectView {
         let group = UIMotionEffectGroup()
         group.motionEffects = [motionEffectsX, motionEffectsY]
 
-        addMotionEffect(group)
+        addMotionEffect(group)*/
     }
 
     private var _content = UIView()
